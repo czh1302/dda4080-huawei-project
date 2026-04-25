@@ -7,6 +7,13 @@ scripts/cosmos_extract_output/
 nuscenes_annotation_result/vlm_annotated_clips.json
 nuscenes_annotation_result/*.json
 
+# --- Secrets / API keys (NEVER commit) ---
+.env
+.env.*
+!.env.example
+*.key
+scripts/.env
+
 # --- Logs ---
 *.log
 
