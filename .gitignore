@@ -1,7 +1,8 @@
 # --- Large data / models / outputs (keep repo small) ---
 models/
 dataset/
-output/
+output/yike_script_output/
+output/zihua_script_output/
 scripts/pipeline_output/
 scripts/cosmos_extract_output/
 nuscenes_annotation_result/vlm_annotated_clips.json
